@@ -43,8 +43,5 @@ Hello World
 
 `@sct`
 ```{python}
-Ex().check_correct(
-  has_output("Hello World")
-)
 success_msg("You're a coding rockstar!")
 ```
