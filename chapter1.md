@@ -43,6 +43,8 @@ Hello World
 
 `@sct`
 ```{python}
-if Ex().has_output("Hello World", pattern = False)
-	success.msg("Goed gedaan!")
+Ex().check_correct(
+  has_output("Hello World")
+)
+success_msg("You're a coding rockstar!")
 ```
